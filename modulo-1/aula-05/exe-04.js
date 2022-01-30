@@ -4,7 +4,7 @@ let numeroUsuario = 0;
 let palpite = 0;
 
 do {
-    numeroAleatorio = Math.floor(Math.random() * 10);
+    numeroAleatorio = Math.floor(Math.random() * 11);
     numeroUsuario = +prompt("Digite um número de 0 a 10: ");
     palpite++
     if (numeroUsuario === numeroAleatorio) {
