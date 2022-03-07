@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #171717;
+}
+nav {
+    width: 75%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav h2 a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 1.7rem;
+}
+
+nav ul#menu {
+    display: flex;
+}
+
+nav ul#menu li {
+    list-style: none;
+    padding-left: 4rem;
+    
+}
+
+nav ul#menu li a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: 400;
+}
+
+nav ul#menu a:hover {
+    color: #828282;
+    text-decoration: underline #828282;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+header {
+    width: 75%;
+    height: calc(60vh - 4rem);
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header #header-text {
+    width: 50%;
+    height: 100%;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header #header-description h1 {
+    font-size: 36px;
+    color: #f9f9f9;
+    margin-bottom: 1.1rem;
+}
+
+header #header-description h2 {
+    font-size: 18px;
+    color: #828282;
+    margin-bottom: 2rem;
+}
+
+header #header-buttons {
+    display: flex;
+}
+
+header .button {
+    width: 10rem;
+    height: 2.6rem;
+}
+
+header .button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header .button.left a {
+    color: #171717;
+}
+
+header .button.left {
+    background-color: #00DF5E;
+    margin-right: 1rem;
+}
+
+header  .button.right {
+    border: solid 1px #333;
+}
+
+header .button.left a:hover {
+    background-color: #00973f;
+    transition: all 0.3s ease;
+}
+
+header .button.right a:hover {
+    background-color: #2c2c2c;
+    transition: all 0.3s ease; 
+}
+
+
+header #header-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header #header-img img {
+    width: 23rem;
+}
+
+
+section#sobre {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+section #sobre-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+section #sobre-text h2 {
+    font-size: 32px;
+    color: #f9f9f9;
+    margin-bottom: 2rem;
+}
+
+section #sobre-text p {
+    font-size: 18px;
+    color: #828282;
+    line-height: 1.8rem;
+}
+
+
+section#sobre #contatos {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+section#sobre .contatos-card {
+    width: 15rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+section#sobre .contatos-card img {
+    width: 2rem;
+} 
+
+section#sobre .contorno {
+    width: 3.9rem;
+    height: 3.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+section#sobre .contatos-card h3 {
+    font-size: 18px;
+    color: #f9f9f9;
+    margin-bottom: .3rem;
+}
+
+section#sobre .contatos-card p {
+    font-size: 16px;
+    color: #828282;
+}
+
+
+
+section#projetos {
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+section#projetos h2 {
+    font-size: 32px;
+    color: #f9f9f9;
+    margin-bottom: 2rem;
+}
+
+section#projetos #projetos-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section#projetos .projeto--card {
+    width: 21.8rem;
+    height: 15rem;
+    background-color: #212121;
+    margin: 1rem;
+    padding-top: 1.25rem;
+    border: solid 1px #333;
+    box-shadow: .0rem .0rem .9rem #333;
+}
+
+section#projetos .projeto--card .img-projeto {
+    width: 18.7rem;
+    height: 8.1rem;
+    margin: auto;
+    margin-bottom: 1.43rem;
+    background-color: #171717;
+    border: solid 1px #333;
+}
+
+section#projetos .projeto--card .projetos--text {
+    width: 18.7rem;
+    margin: auto;
+}
+
+section#projetos .projeto--card .projetos--text h3 {
+    font-size: 18px;
+    color: #f9f9f9;
+    font-weight: 400;
+    margin-bottom: .3rem;
+}
+
+section#projetos .projeto--card .projetos--text h4 {
+    font-size: 14px;
+    color: #828282;
+    font-weight: 400;
+}
+
+
+section#servicos {
+    width: 75%;
+    margin: auto;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#servicos h2 {
+    font-size: 32px;
+    color: #f9f9f9;
+}
+
+section#servicos #servicos-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section#servicos .servicos--card {
+    width: 21.8rem;
+    height: 15rem;
+    background-color: #212121;
+    margin: 2.4rem;
+    color: #828282;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 1.9rem;
+    border: solid 1px #333;
+    border-bottom: solid 5px #00DF5E;
+}
+
+section#servicos .servicos--card img {
+    width: 4rem;
+    margin-bottom: 3rem;
+}
+
+
+
+section#skills {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+section#skills #skills-cards {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section#skills h2 {
+    font-size: 32px;
+    color: #f9f9f9;
+    margin-bottom: 4rem;
+}
+
+section#skills .skills--card {
+    width: 9.4rem;
+    height: 9.4rem;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #333;
+    box-shadow: .0rem .0rem .9rem #333;
+}
+
+section#skills .skills--card img {
+    width: 5rem;
+}
+
+
+section#footer {
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    margin-top: 12rem;
+}
+
+section#footer h3 {
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+section#footer h4 {
+    font-size: 16px;
+    color: #00DF5E;
+    font-weight: 700;
+}
