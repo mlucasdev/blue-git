@@ -12,6 +12,7 @@ body {
     background-color: #171717;
 }
 nav {
+    max-width: 1366px;
     width: 75%;
     height: 4rem;
     display: flex;
@@ -52,6 +53,7 @@ nav ul#menu a:hover {
 
 
 header {
+    max-width: 1366px;
     width: 75%;
     height: calc(60vh - 4rem);
     display: flex;
@@ -141,6 +143,7 @@ header #header-img img {
 
 
 section#sobre {
+    max-width: 1366px;
     width: 75%;
     display: flex;
     justify-content: center;
@@ -220,6 +223,7 @@ section#sobre .contatos-card p {
 
 
 section#projetos {
+    max-width: 1366px;
     width: 75%;
     display: flex;
     margin: 0 auto;
@@ -281,6 +285,7 @@ section#projetos .projeto--card .projetos--text h4 {
 
 
 section#servicos {
+    max-width: 1366px;
     width: 75%;
     margin: auto;
     margin-top: 10rem;
@@ -323,6 +328,7 @@ section#servicos .servicos--card img {
 
 
 section#skills {
+    max-width: 1366px;
     width: 75%;
     margin: auto;
     display: flex;
