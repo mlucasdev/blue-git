@@ -363,7 +363,7 @@ div.redes-card img {
 
 div.redes-card a:hover {
     background-color: #DA2535;
-    transform:scale(1.1);
+    transform:scale(.95);
     transition: all .2s ease-in-out;
 }
 
