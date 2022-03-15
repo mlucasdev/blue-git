@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Sora:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif, arial;
+    width: 100vw;
+    background-color: #1d1d1d;
+    color: #fff;
+    overflow: hidden;
+}
+
+header#header {
+    width: 75%;
+    max-width: 1066px;
+    height: 6rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#header-item {
+    width: 20rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+header#header img {
+    width: 4rem;
+    height: auto;
+}
+
+header#header h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+main#conteudo {
+    flex: 1;
+    height: calc(100vh - 6rem);
+}
+
+div#slider-width {
+    width: 300vw;
+    height: inherit;
+    display: flex;
+    transition: all .8s ease;
+}
+
+div.slider-item {
+    width: calc(100vw - 25vw);
+    max-width: 1066px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+div.item-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+span.message {
+    font-size: 2.5rem;
+    font-weight: 400;
+    width: 65%;
+    height: 26%;
+}
+
+span.message::after {
+    content: '|';
+    margin-left: .3rem;
+    opacity: 1;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+div.item-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+div.item-right img {
+    width: 25rem;
+}
+
+div#pointers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+div.pointer-item {
+    width: 1rem;
+    height: 1rem;
+    border-radius: .5rem;
+    border: solid 2px #fff;
+    margin-left: .2rem;
+    transition: background-color .8s ease;
+    cursor: pointer;
+}
+
+div.atual {
+    background-color: #fff;
+    transition: background-color .8s ease;
+}
+
+button.button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #1d1d1d;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button.button:hover {
+    background-color: #fff;
+    color: #1d1d1d;
+    transition: all .6s ease;
+    border: 2px solid #1d1d1d;
+}
+
+section#game {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+div.item-left.hulk h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    height: 6rem;
+    font-weight: 500;
+}
+
+div.item-left.hulk h1::after {
+    content: '|';
+    margin-left: .3rem;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+div.slider-item.none {
+    display: none;
+}
+
+
+
+
+
+
+
