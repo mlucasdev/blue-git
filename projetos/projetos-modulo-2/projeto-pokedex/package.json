@@ -1,0 +1,19 @@
+{
+  "name": "pokemon",
+  "version": "0.0.0",
+  "description": "Projeto de Estudo na Blue EdTech.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlucasdev/Projeto-Pokedex.git"
+  },
+  "author": "Lucas Marques dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlucasdev/Projeto-Pokedex/issues"
+  },
+  "homepage": "https://github.com/mlucasdev/Projeto-Pokedex#readme"
+}
