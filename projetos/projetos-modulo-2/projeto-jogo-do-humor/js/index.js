@@ -14,7 +14,6 @@ function goSlide() {
     for(let i = 0; i < itensSlider.length; i++) {
         pointerItem[i].classList.remove('atual');
     }
-    console.log(temp)
     q('#slider-width').style.marginLeft = `calc(-100vw * ${temp})`;
     pointerItem[temp].classList.add('atual');
     temp++
@@ -77,4 +76,4 @@ for(let i = 0; i < buttonsGame.length; i++) {
 }
 
 let temp = 1;
-setInterval(goSlide, 5000);
+setInterval(goSlide, 6000);
